@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Fredoka:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'DM Sans', sans-serif; */
+    font-family: 'Fredoka', sans-serif;
+    background-color:dodgerblue;
+}
+
+.heading h1{
+    -webkit-text-stroke: 2px white;
+   color: #FAB201;
+   font-size: 92px;
+   margin-top: 30px;
+   font-weight: 700;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px lightgray;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer h1{
+    color: white;
+    font-size: 30px;
+}
